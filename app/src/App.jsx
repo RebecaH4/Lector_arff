@@ -83,7 +83,7 @@ function App() {
           darkMode ? 'bg-white' : 'bg-white'
         }`}>
           {/* Header Banner */}
-          <div className="px-6 py-8 bg-gradient-to-r from-blue-600 to-pink-300 relative overflow-hidden">
+          <div className="px-6 py-8 bg-gradient-to-r from-blue-500 to-pink-300 relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,rgba(37,99,235,0.15),transparent)]" />
         <div className="relative">
           <h2 className="text-3xl font-bold text-white mb-3 tracking-tight">
