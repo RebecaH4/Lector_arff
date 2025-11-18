@@ -44,7 +44,7 @@ function App() {
 
     try {
       setLoading(true)
-      const resp = await axios.post('https://api-simulacion.onrender.com/api/load', formData, {
+      const resp = await axios.post('https://lector-arff.onrender.com/api/load', formData, {
         headers: { 
           'Content-Type': 'multipart/form-data',
           'Accept': 'application/json',
